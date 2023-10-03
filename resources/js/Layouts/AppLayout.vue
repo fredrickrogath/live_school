@@ -18,14 +18,14 @@
                                             class="block h-9 w-auto"
                                         />
                                     </inertia-link>
-                                    <h4
+                                    <!-- <h4
                                         class="py-auto my-auto text-gray-600 italic font-light uppercase ml-5"
                                     >
                                         {{
                                             $page.props.mySchool.school.name
                                         }}
                                         SCHOOL
-                                    </h4>
+                                    </h4> -->
                                 </span>
                             </div>
 
