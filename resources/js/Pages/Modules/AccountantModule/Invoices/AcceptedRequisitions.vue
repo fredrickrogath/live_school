@@ -75,6 +75,8 @@
                 item-key="name"
                 :search="search"
                 class="elevation-1"
+                :items-per-page="11"
+                dense
             >
                 <template v-slot:body="{ items, headers }">
                     <tbody>

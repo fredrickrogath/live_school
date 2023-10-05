@@ -149,7 +149,7 @@
                                     ><i
                                         class="mdi mdi-form-select font-18 align-middle me-2 pb-1"
                                     ></i
-                                    >All Entries
+                                    ><span class="text-sm">All Entries</span>
                                 </a>
                             </div>
 
@@ -212,7 +212,7 @@
                                     ><i
                                         class="mdi mdi-form-select font-18 align-middle me-2 pb-1"
                                     ></i
-                                    >All Requisitions
+                                    ><span class="text-sm">All Requisitions</span>
                                 </a>
                                 <a
                                     @click="setTab('accepted')"
@@ -226,7 +226,7 @@
                                     ><i
                                         class="mdi mdi-check-bold font-18 align-middle me-2 pb-1"
                                     ></i
-                                    >Accepted Requisitions</a
+                                    ><span class="text-sm">Accepted Requisitions</span></a
                                 >
                                 <a
                                     @click="setTab('rejected')"
@@ -240,7 +240,7 @@
                                     ><i
                                         class="mdi mdi-alert-circle font-18 align-middle me-2 pb-1"
                                     ></i
-                                    >Rejected Requisitions</a
+                                    ><span class="text-sm">Rejected Requisitions</span></a
                                 >
                                 <a
                                     @click="setTab('starred')"
@@ -254,7 +254,7 @@
                                     ><i
                                         class="mdi mdi-star font-18 align-middle me-2 pb-1"
                                     ></i
-                                    >Starred Requisitions</a
+                                    ><span class="text-sm">Starred Requisitions</span></a
                                 >
                                 <a
                                     @click="setTab('deleted')"
@@ -268,7 +268,7 @@
                                     ><i
                                         class="mdi mdi-delete font-18 align-middle me-2 pb-1"
                                     ></i
-                                    >Deleted Requisitions</a
+                                    ><span class="text-sm">Deleted Requisitions</span></a
                                 >
                             </div>
 

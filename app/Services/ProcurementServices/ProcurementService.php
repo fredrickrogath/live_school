@@ -9,6 +9,7 @@ class ProcurementService
             $prefix = 'procurement',
             'role' => 'procurement',
             'posts' => \App\Models\Post::all(),
+            'mySchool' => \App\models\User::with('school')->first(),
             'routes'=> [
                 0 => [
                   'title' => 'Home procmnt',

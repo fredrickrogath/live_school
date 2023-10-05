@@ -10,7 +10,7 @@
                 <v-card-title class="px-0 pt-0 pb-1">
                 <div class="pl-2 pt-1 text-sm uppercase">Transaction Entries</div>
                 <v-spacer></v-spacer>
-            <snackbar message="Task completed successfully"></snackbar>
+            <!-- <snackbar message="Task completed successfully"></snackbar> -->
 
                 <div class="flex col-3 p-0 pt-1 mr-2">
                     <input v-model="search" type="text" class="form-control form-control-sm" />
@@ -26,6 +26,7 @@
                 :search="search"
                 class="bg-red-900"
                 :items-per-page="11"
+                dense
             >
                 <template v-slot:item.id="{ item }">
                     <span class="text-gray-600 italic font-semibold">{{

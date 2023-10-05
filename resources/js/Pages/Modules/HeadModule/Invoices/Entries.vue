@@ -25,6 +25,7 @@
                 :search="search"
                 class="bg-red-900"
                 :items-per-page="11"
+                dense
             >
                 <template v-slot:item.id="{ item }">
                     <span class="text-gray-600 italic font-semibold">{{

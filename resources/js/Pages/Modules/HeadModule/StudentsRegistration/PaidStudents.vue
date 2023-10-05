@@ -17,7 +17,7 @@
                     <v-card-title class="px-0 pt-0 pb-1">
                         <div class="pl-2 pt-1 text-sm uppercase">Payments</div>
                         <v-spacer></v-spacer>
-                        <snackbar class="absolute right-0 top-14" message="Task completed successfully"></snackbar>
+                        <!-- <snackbar class="absolute right-0 top-14" message="Task completed successfully"></snackbar> -->
 
                         <div class="flex col-3 p-0 pt-1 mr-2">
                             <input v-model="search" type="text" class="form-control form-control-sm" />
@@ -207,7 +207,7 @@
                             > -->
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="header.value == 'created_at'"
                                         >{{
                                             formattedDate(item[header.value])
@@ -223,13 +223,13 @@
                                     >
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="header.value == 'first_name'"
                                         >{{ item[header.value] }}</span
                                     >
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="
                                             header.value == 'middle_name'
                                         "
@@ -238,14 +238,14 @@
                                     </span>
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="header.value == 'last_name'"
                                     >
                                         {{ item[header.value] }}
                                     </span>
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="header.value == 'class_type'"
                                         >{{
                                             item[header.value].class_level
@@ -253,7 +253,7 @@
                                     >
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="header.text === 'Level 1'"
                                     >
                                         <template
@@ -393,7 +393,7 @@
                                     </span>
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="header.text === 'Level 2'"
                                     >
                                         <template
@@ -533,7 +533,7 @@
                                     </span>
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="header.text === 'Level 3'"
                                     >
                                         <template
@@ -673,7 +673,7 @@
                                     </span>
 
                                     <span
-                                        class="text-gray-600 italic font-semibold"
+                                        class="text-gray-600 italic font-semibold text-xs"
                                         v-else-if="
                                             header.text === 'Last Pay On'
                                         "

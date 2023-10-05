@@ -9,6 +9,7 @@ class AcademicService
             $prefix = 'academic',
             'role' => 'academic',
             'posts' => \App\Models\Post::all(),
+            'mySchool' => \App\models\User::with('school')->first(),
             'routes'=> [
                 0 => [
                   'title' => 'Home acadmc',

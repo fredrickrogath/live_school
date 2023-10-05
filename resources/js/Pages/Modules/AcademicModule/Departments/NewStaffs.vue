@@ -73,6 +73,8 @@
                 :items="students"
                 item-key="name"
                 :search="search"
+                :items-per-page="11"
+                dense
                 class="elevation-1"
             >
                 <template v-slot:body="{ items, headers }">

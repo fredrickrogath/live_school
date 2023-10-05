@@ -34,6 +34,7 @@
                 :items="uploads"
                 :search="search"
                 :items-per-page="11"
+                dense
                 class=""
             >
                 <template v-slot:item.title="{ item }">

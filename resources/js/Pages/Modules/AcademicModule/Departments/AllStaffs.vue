@@ -56,7 +56,7 @@
             <!-- {{ $page.props.posts }} -->
 
             <v-data-table :headers="headers" :items="students" item-key="name" :search="search" class="elevation-1"
-                :items-per-page="11">
+                :items-per-page="11" dense>
                 <template v-slot:body="{ items, headers }">
                     <tbody>
                         <tr v-for="(item, idx, k) in items" :key="idx">
