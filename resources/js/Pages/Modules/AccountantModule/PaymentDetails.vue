@@ -429,12 +429,9 @@
                             </tbody>
                         </template>
                     </v-data-table>
-                    <!-- </v-col> -->
             </div>
         </div>
     </div>
-    <!-- </v-row>
-    </v-col> -->
 </template>
 
 <script>
